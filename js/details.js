@@ -1,3 +1,10 @@
+console.dir.document;
+
+
+const params = new URLparams(queryString);
+
+
+
 
 
 
@@ -20,38 +27,17 @@ async function fruityfunction() {
         const responsJSON = await respons.json();
         console.log(responsJSON);
 
-        for (let i = 0; i < responsJSON.length; i++) {
-
             console.log(responsJSON[i]);
-            for (let i = 0; i < nutritionsJSON.length; i++) {
-                console.log(nutritionsJSON);
 
 
-                const nutritionsJSON = await nutritions.json();
-                console.log(nutritionsJSON);
-
-                for (let i = 0; i < nutritionsJSON.length; i++) {
-                    console.log(nutritionsJSON);
-                    
-                }
-                
-            }
-        }
-
-        // const nutritionsJSON = await nutritions.json();
-        // console.log(nutritionsJSON);
-
-
-        // for (let i = 0; i < nutritionsJSON.length; i++) {
-        //     console.log(nutritionsJSON);
+            fruitycontainer.innerHTML =`
             
-        // }
+            <div class="respons2">
+            <h1> ${}
 
-
-
-
-
-
+            </h1>    
+             </div>
+             `
 
     }catch(error){
         console.log("error");
