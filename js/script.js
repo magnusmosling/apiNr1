@@ -1,3 +1,9 @@
+
+
+
+
+
+
 const url = "https://www.fruityvice.com/api/fruit/all"
 
 const proxy = "https://noroffcors.herokuapp.com/"
